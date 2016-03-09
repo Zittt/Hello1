@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>ttt...</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!--
+   <link rel="stylesheet" href="css/bootstrap.min.css" />
+		-->
+		<!-- 新 Bootstrap 核心 CSS 文件 -->
+		<!--
+    	作者：614449035@qq.com
+    	时间：2016-03-08
+    	描述：
+   -->
+		<link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+		<!-- 可选的Bootstrap主题文件（一般不用引入） -->
+		<link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+		<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+		<!--<script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+	-->
+		<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+		<!--<script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	-->
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="col-md-4">
+				<form role="form">
+					<div class="input-group">
+
+						<span class="input-group-addon">账户 </span>
+
+						<input type="text" class="form-control" id="accountName" placeholder="用户名/Email" />
+
+					</div>
+					<div class="input-group">
+						<span class="input-group-addon">密码 </span>
+						<input type="password" class="form-control" id="accountPwd" placeholder="密码" />
+					</div>
+					<div class="form-group" hidden="hidden">
+						<label for="inputfile">文件输入</label>
+						<input type="file" id="inputfile">
+						<p class="help-block">这里是块级帮助文本的实例。</p>
+					</div>
+					<div class="input-group">
+						<span class="input-group-addon">用户类别 </span>
+						<input type="radio" name="accountType" value="student" checked="checked" />
+						<label>学生</label>
+						<input type="radio" name="accountType" value="teacher" />
+						<label>老师</label>
+						<input type="radio" name="accountType" value="administrator" />
+						<label>管理员</label>
+					</div>
+					<div class="checkbox">
+						<label>
+							<input type="checkbox"> 七天免登陆
+						</label>
+					</div>
+					<button type="submit" class="btn btn-default">登录</button>
+					<button type="button" class="btn btn-default">注册
+						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					</button>
+				</form>
+
+			</div>
+		</div>
+		<script type="text/javascript" src="js/jquery-1.12.0.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+	</body>
+
+</html>
